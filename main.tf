@@ -33,7 +33,7 @@ resource "libvirt_volume" "qcow2" {
 
   name   = "${each.value}.qcow2"
   pool   = libvirt_pool.virt_lab.name
-  source = "assets/${var.source_image}"
+  source = "images/${var.source_image}"
   format = "qcow2"
 }
 
