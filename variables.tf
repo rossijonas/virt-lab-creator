@@ -21,7 +21,7 @@ variable "lab_size" {
 variable "source_image" {
   description = "Filename of the downloaded system image"
   type        = string
-  default     = "rhel-8.6-x86_64-kvm.qcow2" # change here
+  default     = "Rocky-8-GenericCloud.latest.x86_64.qcow2" # change here
 }
 
 variable "vm_memory" {
