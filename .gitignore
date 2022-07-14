@@ -1,5 +1,5 @@
 # ignore donwloaded OS
-assets
+images/
 
 # terraform files
 terraform.tfstate*
