@@ -3,7 +3,7 @@ variable "pool_name" {
   # volumes and the vms.
   description = "Name of the pool that is going to store the volumes."
   type        = string
-  default     = "virt_lab_pool" # change here
+  default     = "rhce" # change here
 }
 
 variable "user_name" {
@@ -15,13 +15,13 @@ variable "user_name" {
 variable "lab_size" {
   description = "Amount of VMs to build."
   type        = number
-  default     = 3 # change here
+  default     = 4 # change here
 }
 
 variable "source_image" {
   description = "Filename of the downloaded system image"
   type        = string
-  default     = "Rocky-8-GenericCloud.latest.x86_64.qcow2" # change here
+  default     = "rhel-8.6-x86_64-kvm.qcow2" # change here
 }
 
 variable "vm_memory" {

@@ -48,7 +48,7 @@ For each home lab created:
 
 5.  Run `terraform apply -auto-approve` to create the home lab.
 
-6.  Open Virtual Machine Manager, start manually start any newly created VM, and log in with the default credentials:
+6.  Open Virtual Machine Manager, manually start any newly created VM, and log in with the default credentials:
 
     user: `admin` / password: `adminpwd`
 
